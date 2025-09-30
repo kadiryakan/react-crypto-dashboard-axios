@@ -19,6 +19,40 @@ body {
   gap: 10px;
 }
 
+.headerDiv{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.navbar{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  padding: 8px 0px 0px 0px;
+}
+
+.navbar a {
+  height: 70%;
+  width: fit-content; /* Sadece içeriği kadar genişlik */
+  text-align: center;
+}
+
+
+.navbar h2 {
+  margin-left: 25px;
+  border: none;
+  border-bottom: 2px solid;
+  transition: 0.2s ease-in;
+}
+
+.navbar h2:hover{
+  color: rgb(193, 193, 193);
+  transform: translateY(-2px);
+  transition: 0.2s ease-out;
+}
+
 .logo {
   width: 50px;
   height: 50px;
