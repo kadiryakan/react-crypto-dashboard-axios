@@ -16,9 +16,13 @@ You can <strong>search</strong> coin:
 
 <img src="src/assets/img4.png" width="800">
 
+<hr/>
+
 <strong>Selecting</strong> how many coins to list:
 
 <img src="src/assets/img1.png" width="800">
+
+<hr/>
 
 Coin <strong>details</strong> page:
 
