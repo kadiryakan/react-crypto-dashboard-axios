@@ -39,7 +39,7 @@ const HomePage = ({
   })
     return (
     <div>
-      { loading && <p><Spinner/></p>}
+      { loading && <div><Spinner/></div>}
       {error && <div className="error">{error}</div>}
 
         <div className="top-controls">

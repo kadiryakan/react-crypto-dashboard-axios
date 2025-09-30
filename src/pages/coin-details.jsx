@@ -2,7 +2,6 @@ import axios from "axios";
 import {useState, useEffect} from "react"
 import { useParams } from "react-router";
 import { Link } from "react-router";
-import { FaArrowLeftLong } from "react-icons/fa6";
 import Spinner from "../components/Spinner"
 
 
@@ -32,7 +31,7 @@ const CoinDetailsPage = () => {
     return (
         <div className="coin-details-container">
             <Link to="/">
-            <FaArrowLeftLong className=""/>Back To Home</Link>
+            ← Back To Home</Link>
 
             <h1 className="coin-details-title">
                 {coin ? `${coin.name} (${coin.symbol.toUpperCase()})` : "Coin Detail"}

@@ -1,6 +1,6 @@
-# React + Vite Crypto Dash App
+# React Crypto Dash App
 
-Used <a href="https://www.coingecko.com/tr/api">CoinGecko API</a> in this project.
+React app to browse and search cryptocurrency information. This project uses the <a href="https://www.coingecko.com/tr/api">CoinGecko API</a>.
 
 <img src="src/assets/img3.png" width="800">
 
@@ -17,3 +17,7 @@ You can <strong>search</strong> coin:
 <strong>Selecting</strong> how many coins to list:
 
 <img src="src/assets/img1.png" width="800">
+
+Coin <strong>details</strong> page:
+
+<img src="src/assets/img5.png" width="800">
