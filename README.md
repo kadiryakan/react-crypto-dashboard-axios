@@ -10,6 +10,8 @@ You can <strong>search</strong> coin:
 
 <img src="src/assets/img2.png" width="800">
 
+<hr/>
+
 <strong>Sorting</strong> coins:
 
 <img src="src/assets/img4.png" width="800">
