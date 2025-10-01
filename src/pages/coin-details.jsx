@@ -43,7 +43,7 @@ const CoinDetailsPage = () => {
             { !loading && !error && (
                 <>
                   <img src={coin.image.large} alt={coin.name} className="coin-details-image" />
-                  <p >${coin.description.en.split(". ")[0] + "."}</p>
+                  <p>{coin.description.en.split(". ")[0] + "."}</p>
 
                   <div className="coin-details-info">
                     <h3>Rank: #{coin.market_cap_rank}</h3>
@@ -91,7 +91,7 @@ const CoinDetailsPage = () => {
                     </p>
                     )}
                     {coin.categories.length > 0 && (
-                    <p>Categories: {coin.categories.join(', ')}</p>
+                    <p><strong>Categories</strong>: {coin.categories.join(', ')}</p>
                     )}
                   </div>
                 </>
