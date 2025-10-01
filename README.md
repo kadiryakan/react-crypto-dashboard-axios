@@ -1,5 +1,7 @@
 # React Crypto Dash App
 
+You can access the demo of the project from <a href="https://crypto-dashboard.kadiryakan.dev/">here</a>.
+
 React app to browse and search cryptocurrency information. This project uses the <a href="https://www.coingecko.com/tr/api">CoinGecko API</a>.
 
 <img src="src/assets/img3.png" width="800">
